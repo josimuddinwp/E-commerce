@@ -1,0 +1,142 @@
+@media(max-width: 770px){
+  #bar{
+    display: initial;
+  }
+  header ul{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    background-color: #004274;
+    overflow: hidden;
+    transition: .4s ease;
+  }
+  ul li{
+    padding: 20px 30%;
+    border: 1px solid gray;
+  }
+  #navbar li a{
+    color: #fff;
+  }
+  .container-text h4{
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  
+  .second-pera{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .reviews-text{
+    padding: 20px 20%;
+  }
+  .update-cart{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 20px;
+    margin: 0 auto;
+}
+.reviews-text h2{
+  margin-top: 0px;
+}
+#newsletters{
+  display: inline-block;
+}
+.newstext{
+  width: 100%;
+  padding: 20px 10%;
+}
+.form{
+  width: 100%;
+  padding: 30px 10%;
+}
+.last{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding-left: 5%;
+}
+}
+@media(max-width: 630px){
+  .banner-text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1;
+  }
+  .banner-head{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+  }
+  .update-cart{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 20px;
+    margin: 0 auto;
+}
+}
+@media (max-width: 570px){
+  header .logo{
+    font-size: 16px;
+   }
+  .first-container h2{
+    font-size: 20px;
+  }
+  .first-container p{
+    font-size: 16px;
+  }
+  .first-container .btn1{
+    padding: 5px 14px;
+  }
+  .sec-container{
+    width: 100%;
+    height: auto;
+  }
+  .container-text{
+    margin-left: 10px;
+  }
+  .container-text h4{
+    font-size: 14px;
+  }
+  .second-pera{
+    font-size: 16px;
+  }
+  #service{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .banner-text{
+    text-align: center;
+    line-height: 1;
+    padding: 5px;
+  }
+  .reviews-text{
+    padding: 20px 10%;
+  }
+  .last{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-left: 5%;
+    text-align: center;
+  }
+  .form{
+    width: 100%;
+    padding: 10px 0;
+  }
+  .form input{
+    padding: 10px 10px;
+  }
+  .form .normal{
+    padding: 10px 10px;
+  }
+}
