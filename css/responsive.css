@@ -61,7 +61,39 @@
   grid-template-columns: repeat(2,1fr);
   padding-left: 5%;
 }
+.banner-contant .banner-text2{
+  padding: 20px 0;
 }
+.banner-text2 p{
+  line-height: 1.5;
+}
+#main-page .first-container{
+  padding: 40px 50px;
+}
+.first-container h2{
+  font-size: 25px;
+}
+
+#about-main{
+  display: block;
+}
+.about-image{
+width: 100%;
+padding: 0 30px
+}
+#about-main .about-text{
+  width: 100%;
+}
+.first-container p{
+  color: #fff;
+}
+.first-container1{
+  color: #000;
+}
+}
+
+
+/* mobile-device */
 @media(max-width: 630px){
   .banner-text{
     justify-content: center;
@@ -80,6 +112,38 @@
     display: inline-block;
     padding: 20px;
     margin: 0 auto;
+}
+.first-container p{
+  color: #fff;
+}
+#location{
+  display: block;
+}
+.location-text{
+  width: 100%;
+  padding: 30px 20px;
+  line-height: 1;
+}
+.location-map{
+  width: 100%;
+}
+#form-people{
+  display: block;
+}
+.first-side{
+  width: 100%;
+}
+#form-people .persons{
+  width: 100%;
+}
+.person{
+  padding: 0;
+}
+.input {
+  width: 100%;
+}
+.two{
+  margin: 20px 0;
 }
 }
 @media (max-width: 570px){
@@ -139,4 +203,34 @@
   .form .normal{
     padding: 10px 10px;
   }
+  .banner-contant{
+    display: block; 
+    width: 100%;
+  }
+  .banner-image2 {
+    width: 100%;
+  }
+  
+  .banner-image2 img{
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+  .banner-text2{
+    width: 100%;
+    height: auto;
+    line-height: 1.5;
+  }
+  .about-text{
+    width: 100%;
+  }
+  #main-page{
+   padding: 20px 10px;
+  }
+  #main-page .first-container{
+    padding: 10px 20px;
+  }
+.video{
+  display: block;
+}
 }

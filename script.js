@@ -6,4 +6,7 @@ function togglemenu(){
   {
     navbar.style.maxHeight = "300px";
   }
+  else{
+    navbar.stylemaxHeight = "0px"
+  }
 }
