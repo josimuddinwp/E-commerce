@@ -60,6 +60,10 @@
 }
 #hero .first-container p{
   color: #000;
+  line-height: 2;
+}
+.discount{
+  color: red;
 }
 .first-container h2{
   color: #000;
@@ -70,6 +74,7 @@
   font-size: 18px;
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 0.641);
+  line-height: 2;
 }
 .first-container .btn1{
   padding: 8px 20px;
@@ -101,7 +106,7 @@
   border-radius: 8px;
 }
 .sec-container{
-  width: 24%;
+  width: 100%;
   height: auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -133,17 +138,15 @@
   font-weight: 700;
 }
 #feature .sp-container{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   margin: 0 auto;
   align-items: center;
   justify-content: center;
   row-gap: 70px;
-  column-gap: 20px;
+  column-gap: 40px;
 }
-.sp-container img{
-  width: 100%;
-  height: auto;
+.sec-container img{
   transition: all .40s;
 }
 .sp-container img:hover{
@@ -220,7 +223,7 @@
 }
 .span-banner{
   font-size: 20px;
-  color: orangered;
+  color: aqua;
   font-weight: 900;
 }
 #product-section{
