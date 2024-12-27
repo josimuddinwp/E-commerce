@@ -8,7 +8,13 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* header-section */
-
+header{
+  display: grid;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 #head-bars{
   display: flex;
   justify-content: space-between;
@@ -29,10 +35,11 @@
   color: rgba(0, 0, 0, 0.733);
   font-weight: 500;
 }
-#navbar a:hover{
+#navbar li a:hover,
+#navbar li a.active{
   color: blue;
 }
-/*#navbar li a.active::after,
+/* #navbar li a.active::after,
 #navbar li a:hover::after{
   content: "";
   width: 30%;
@@ -41,7 +48,7 @@
   position: absolute;
   bottom: -4px;
   left: 20px;
-}*/
+} */
 
 /* hero-section */
 
@@ -54,6 +61,7 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   align-items: center;
+  padding: 40px 10%;
 }
 .first-container{
   padding: 5% 10%;
@@ -64,6 +72,9 @@
 }
 .discount{
   color: red;
+}
+.discount:hover{
+  color: #ff00ff;
 }
 .first-container h2{
   color: #000;
@@ -82,6 +93,10 @@
   border: none;
   border-radius: 8px;
   color: #fff;
+}
+.first-container .btn1:hover{
+  background-color: #088178;
+  color: #000;
 }
 .second{
   text-align: center;
@@ -458,6 +473,9 @@ footer .install .row img{
   width: 100%;
   height: auto;
 }
+#page-header .first-container h2{
+  margin-top: 20px;
+}
 .first-container h2{
   color: #fff;
 }
@@ -474,6 +492,9 @@ footer .install .row img{
   display: flex;
   flex-direction: column;
   margin-top: 80px;
+}
+#page-head .first-container h2{
+  margin-top: 20px;
 }
 .banner-contant{
   display: flex;
@@ -565,6 +586,9 @@ footer .install .row img{
 }
 #main-page .first-container{
   padding-left: 30%;
+}
+#contact-page .first-container{
+ margin-top: 30px;
 }
 
 /* contact-section */
