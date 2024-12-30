@@ -55,6 +55,7 @@ header{
 #hero{
   background-image: url(../images/E-images/banner-3.png);
   width: 100%;
+  top: 20;
   height: 90vh;
   background-position: center;
   background-size: cover;
@@ -569,6 +570,10 @@ footer .install .row img{
   border-radius: 8px;
   color: #fff;
   margin-top: 30px;
+  transition: all .42s;
+}
+.btn1:hover{
+  background-color: #088178;
 }
 
 

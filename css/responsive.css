@@ -20,6 +20,10 @@
   #navbar li a{
     color: #fff;
   }
+  #contact-page .first-container h2{
+    padding-top: 30px;
+  }
+  
   .container-text h4{
     font-size: 16px;
     margin-top: 15px;
@@ -117,6 +121,9 @@ padding: 0 30px
 }
 .first-container p{
   color: #fff;
+}
+#contact-page .first-container h2{
+  padding-top: 40px;
 }
 #location{
   display: block;
