@@ -1,3 +1,11 @@
+@media(max-width: 1099px){
+#page-header .first-container h2{
+  padding-top: 20px;
+}
+#page-head .first-container h2{
+  padding-top: 20px;
+}
+}
 @media(max-width: 770px){
   #bar{
     display: initial;
@@ -20,6 +28,12 @@
   #navbar li a{
     color: #fff;
   }
+  #page-head .first-container h2{
+    padding-top: 40px;
+  }
+  #page-header .first-container h2{
+    padding-top: 30px;
+  }
   #contact-page .first-container h2{
     padding-top: 30px;
   }
@@ -29,7 +43,6 @@
     margin-top: 15px;
   }
   #feature .sp-container{
-   
   }
   .second-pera{
     text-align: center;
@@ -119,6 +132,13 @@ padding: 0 30px
     padding: 20px;
     margin: 0 auto;
 }
+
+#page-head .first-container h2{
+  padding-top: 70px;
+}
+#page-header .first-container h2{
+  padding-top: 60px;
+}
 .first-container p{
   color: #fff;
 }
@@ -179,6 +199,9 @@ padding: 0 30px
   }
   .second-pera{
     font-size: 16px;
+  }
+  #main-page .first-container1 h2{
+  margin-top: 20px;
   }
   #service{
     justify-content: center;
